@@ -10,6 +10,9 @@ void main() => runApp(
           ),
           backgroundColor: Colors.blueGrey[900],
         ),
+        body: Image(
+          image: NetworkImage('https://pngimg.com/uploads/pokemon/pokemon_PNG26.png')
+        ),
       ),
     ),
 );
