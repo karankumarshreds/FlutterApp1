@@ -8,11 +8,13 @@ void main() => runApp(
           title: Center(
             child: Text('I am rich'),
           ),
-          backgroundColor: Colors.blueGrey[900],
+          backgroundColor: Colors.blueGrey[900], 
         ),
-        body: Image(
+        body: Center(
+          child: Image(
           image: NetworkImage('https://pngimg.com/uploads/pokemon/pokemon_PNG26.png')
         ),
+        )
       ),
     ),
 );
